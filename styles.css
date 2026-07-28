@@ -832,3 +832,68 @@ footer a {
     transform:scale(1.08);
     transition:.3s;
 }
+}
+/* Professional FAQ cards */
+
+.faq-preview-list{
+  max-width:850px;
+  margin:0 auto;
+  display:grid;
+  gap:16px;
+}
+
+.faq-preview-list details{
+  background:white;
+  border:1px solid #e7dce9;
+  border-radius:18px;
+  box-shadow:0 8px 24px rgba(66,43,73,.08);
+  overflow:hidden;
+}
+
+.faq-preview-list summary{
+  position:relative;
+  padding:22px 65px 22px 24px;
+  color:#56356c;
+  font-size:1.12rem;
+  font-weight:800;
+  cursor:pointer;
+  list-style:none;
+}
+
+.faq-preview-list summary::-webkit-details-marker{
+  display:none;
+}
+
+.faq-preview-list summary::after{
+  content:"+";
+  position:absolute;
+  right:22px;
+  top:50%;
+  transform:translateY(-50%);
+  width:34px;
+  height:34px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  background:#eee5f8;
+  color:#7045aa;
+  font-size:24px;
+  font-weight:bold;
+}
+
+.faq-preview-list details[open] summary::after{
+  content:"−";
+}
+
+.faq-preview-list details p{
+  padding:0 24px 22px;
+  color:#514756;
+  font-size:1rem;
+  line-height:1.7;
+}
+
+.faq-preview-list details[open]{
+  border-color:#cbb5df;
+  box-shadow:0 12px 30px rgba(86,53,108,.14);
+}
