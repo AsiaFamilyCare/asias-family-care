@@ -897,3 +897,103 @@ footer a {
   border-color:#cbb5df;
   box-shadow:0 12px 30px rgba(86,53,108,.14);
 }
+/* Full FAQ page */
+
+.faq-page-intro {
+  padding: 85px 0 45px;
+  background:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(217, 104, 157, 0.12),
+      transparent 30%
+    ),
+    linear-gradient(135deg, #fff7fb, #f3edff);
+}
+
+.faq-page-intro .section-heading {
+  margin-bottom: 0;
+}
+
+.faq-page-intro .section-heading > p:first-child {
+  margin-bottom: 12px;
+  color: var(--pink);
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.faq-page-intro h1 {
+  margin-bottom: 20px;
+  color: var(--purple-dark);
+  font-size: clamp(2.7rem, 6vw, 4.4rem);
+}
+
+.faq-page-section {
+  padding: 70px 0 95px;
+  background: var(--cream);
+}
+
+.faq-booking-box {
+  max-width: 850px;
+  margin: 55px auto 0;
+  padding: 45px 30px;
+  border-radius: 25px;
+  background:
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(255, 255, 255, 0.13),
+      transparent 30%
+    ),
+    linear-gradient(135deg, var(--purple), var(--purple-dark));
+  color: white;
+  text-align: center;
+  box-shadow: var(--shadow-hover);
+}
+
+.faq-booking-box p {
+  margin-bottom: 8px;
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: 600;
+}
+
+.faq-booking-box h2 {
+  margin-bottom: 25px;
+  color: white;
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.faq-booking-box .button {
+  background: white;
+  color: var(--purple-dark);
+}
+
+.faq-booking-box .button:hover {
+  background: var(--pink-light);
+}
+
+@media (max-width: 600px) {
+  .faq-page-intro {
+    padding: 60px 0 35px;
+  }
+
+  .faq-page-intro h1 {
+    font-size: 2.65rem;
+  }
+
+  .faq-page-section {
+    padding: 50px 0 70px;
+  }
+
+  .faq-preview-list summary {
+    padding: 20px 62px 20px 20px;
+    font-size: 1.05rem;
+  }
+
+  .faq-preview-list details p {
+    padding: 0 20px 20px;
+  }
+
+  .faq-booking-box {
+    padding: 38px 22px;
+  }
+}
