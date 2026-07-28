@@ -224,5 +224,33 @@ height:70px;
     width: 100%;
     height: auto;
     object-fit: contain;
+  }.about-image,
+.welcome-image,
+.caregiver-image {
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+}
+
+.about-image img,
+.welcome-image img,
+.caregiver-image img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  display: block !important;
+}
+}@media (max-width: 768px) {
+  .about-grid,
+  .welcome-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .about-image img,
+  .welcome-image img,
+  .caregiver-image img {
+    aspect-ratio: auto !important;
   }
 }
