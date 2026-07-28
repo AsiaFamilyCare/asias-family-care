@@ -751,3 +751,63 @@ footer a:hover {
     scroll-behavior: auto !important;
   }
 }
+/* Stronger, bolder website text */
+
+body {
+  font-weight: 500;
+}
+
+.hero h1 {
+  font-weight: 900;
+  letter-spacing: -1px;
+  text-shadow: 0 2px 8px rgba(93, 59, 115, 0.08);
+}
+
+.hero p {
+  font-weight: 600;
+  color: #4b4050;
+}
+
+.hero > .container p:first-child,
+.hero-grid > div > p:first-child {
+  font-weight: 700;
+  color: #4d3b58;
+  letter-spacing: 0.3px;
+}
+
+.section-heading h2,
+.about-preview h2,
+.quote-intro h1 {
+  font-weight: 900;
+}
+
+.section-heading p,
+.about-preview p,
+.service-card p,
+.feature-card p,
+.faq-item p {
+  font-weight: 500;
+  color: #514756;
+}
+
+.service-card h3,
+.feature-card h3,
+.faq-item h3 {
+  font-weight: 800;
+}
+
+nav a,
+.main-nav a {
+  font-weight: 800;
+}
+
+.button,
+.quote-submit-button {
+  font-weight: 900;
+}
+
+footer,
+footer p,
+footer a {
+  font-weight: 600;
+}
