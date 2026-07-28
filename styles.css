@@ -253,4 +253,14 @@ height:70px;
   .caregiver-image img {
     aspect-ratio: auto !important;
   }
+}.about-image {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.about-image img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block !important;
 }
