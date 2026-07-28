@@ -411,3 +411,107 @@ height:70px;
     font-size: 30px;
   }
 }
+/* Smooth page animations */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  animation: pageFadeIn 0.8s ease-in;
+}
+
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.logo {
+  animation: logoDrop 0.8s ease-out;
+}
+
+@keyframes logoDrop {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.service-card,
+.feature-card,
+.faq-item,
+.about-preview,
+.why-choose-us {
+  animation: fadeUp 0.8s ease both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.service-card,
+.feature-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover,
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(80, 50, 90, 0.15);
+}
+
+.button {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 18px rgba(80, 50, 90, 0.18);
+}
+
+.button:active {
+  transform: scale(0.97);
+}
+
+.floating-book-button {
+  animation: gentlePulse 2.2s infinite;
+}
+
+@keyframes gentlePulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.06);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
