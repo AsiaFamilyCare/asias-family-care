@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Book Childcare | Asia's Family Care</title>
+
+  <meta
+    name="description"
+    content="Request in-home babysitting or nanny services from Asia's Family Care."
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="index.html" aria-label="Asia's Family Care home">
+        <img
+          src="logo.jpg.jpeg"
+          alt="Asia's Family Care"
+          class="logo"
+        >
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About Us</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#why-choose-us">Why Choose Us</a>
+        <a href="faq.html">FAQ</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="booking-intro">
+      <div class="container">
+
+        <p class="booking-label">Childcare Request</p>
+
+        <h1>Book Childcare for Your Family</h1>
+
+        <p>
+          Tell us when you need care and what your family needs.
+          We will review your request and contact you to confirm availability.
+        </p>
+
+      </div>
+    </section>
+
+    <section class="booking-form-section">
+      <div class="container">
+
+        <form
+          class="booking-form"
+          action="https://formsubmit.co/asiafamilycare3@gmail.com"
+          method="POST"
+        >
+
+          <input
+            type="hidden"
+            name="_subject"
+            value="New Childcare Booking Request"
+          >
+
+          <input
+            type="hidden"
+            name="_captcha"
+            value="false"
+          >
+
+          <input
+            type="hidden"
+            name="_template"
+            value="table"
+          >
+
+          <h2>Parent or Guardian Information</h2>
+
+          <div class="form-grid">
+
+            <label>
+              First Name
+              <input
+                type="text"
+                name="First Name"
+                required
+              >
+            </label>
+
+            <label>
+              Last Name
+              <input
+                type="text"
+                name="Last Name"
+                required
+              >
+            </label>
+
+            <label>
+              Email Address
+              <input
+                type="email"
+                name="Email"
+                required
+              >
+            </label>
+
+            <label>
+              Phone Number
+              <input
+                type="tel"
+                name="Phone Number"
+                required
+              >
+            </label>
+
+          </div>
+
+          <h2>Childcare Details</h2>
+
+          <div class="form-grid">
+
+            <label>
+              Date Care Is Needed
+              <input
+                type="date"
+                name="Care Date"
+                required
+              >
+            </label>
+
+            <label>
+              Type of Care
+              <select
+                name="Type of Care"
+                required
+              >
+                <option value="">Choose a service</option>
+                <option>In-Home Babysitting</option>
+                <option>Nanny Services</option>
+                <option>Overnight Childcare</option>
+                <option>Date Night Babysitting</option>
+                <option>Last-Minute Care</option>
+                <option>Flexible Scheduling</option>
+              </select>
+            </label>
+
+            <label>
+              Start Time
+              <input
+                type="time"
+                name="Start Time"
+                required
+              >
+            </label>
+
+            <label>
+              End Time
+              <input
+                type="time"
+                name="End Time"
+                required
+              >
+            </label>
+
+            <label>
+              Number of Children
+              <input
+                type="number"
+                name="Number of Children"
+                min="1"
+                required
+              >
+            </label>
+
+            <label>
+              Ages of Children
+              <input
+                type="text"
+                name="Ages of Children"
+                placeholder="Example: 2, 5, and 8"
+                required
+              >
+            </label>
+
+          </div>
+
+          <h2>Care Location</h2>
+
+          <label>
+            Street Address
+            <input
+              type="text"
+              name="Street Address"
+              required
+            >
+          </label>
+
+          <div class="form-grid">
+
+            <label>
+              City
+              <input
+                type="text"
+                name="City"
+                required
+              >
+            </label>
+
+            <label>
+              ZIP Code
+              <input
+                type="text"
+                name="ZIP Code"
+                required
+              >
+            </label>
+
+          </div>
+
+          <h2>Additional Information</h2>
+
+          <label>
+            Allergies, Medical Needs, Routines, or Special Instructions
+            <textarea
+              name="Special Instructions"
+              rows="6"
+              placeholder="Please provide anything the caregiver should know."
+            ></textarea>
+          </label>
+
+          <label class="checkbox-row">
+            <input
+              type="checkbox"
+              name="Information Confirmation"
+              required
+            >
+
+            <span>
+              I confirm that the information provided is accurate.
+              I understand that submitting this form does not guarantee
+              availability or confirm a booking.
+            </span>
+          </label>
+
+          <button
+            type="submit"
+            class="button booking-submit-button"
+          >
+            Submit Booking Request
+          </button>
+
+          <p class="form-note">
+            We will review your request and contact you before childcare is confirmed.
+          </p>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+
+      <p>
+        &copy; 2026 Asia's Family Care. All rights reserved.
+      </p>
+
+      <p>
+        <a href="index.html">Home</a>
+        &nbsp; | &nbsp;
+        <a href="faq.html">FAQs</a>
+      </p>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
