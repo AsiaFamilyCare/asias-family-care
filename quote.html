@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request a Quote | Asia's Family Care</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="index.html">
+      <img src="logo.jpg.jpeg" alt="Asia's Family Care" class="logo">
+    </a>
+
+    <a href="index.html" class="button">Back to Home</a>
+
+  </div>
+</header>
+
+<section class="quote-intro">
+
+  <div class="container">
+
+    <h1>Request a Childcare Quote</h1>
+
+    <p>
+      Complete the form below and we'll contact you with pricing,
+      availability, and answers to any questions you have.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="quote-form-section">
+
+<div class="container">
+
+<form
+action="https://formspree.io/f/YOUR_FORM_ID"
+method="POST"
+class="quote-form">
+
+<label>
+Parent / Guardian Name
+<input type="text" name="Parent Name" required>
+</label>
+
+<label>
+Email Address
+<input type="email" name="Email" required>
+</label>
+
+<label>
+Phone Number
+<input type="tel" name="Phone Number" required>
+</label>
+
+<label>
+City
+<input type="text" name="City" required>
+</label>
+
+<label>
+Number of Children
+<input type="number" name="Number of Children" required>
+</label>
+
+<label>
+Children's Ages
+<input type="text" name="Children's Ages" placeholder="Example: 2, 5 and 8">
+</label><label>
+Type of Care Needed
+<select name="Type of Care" required>
+  <option value="">Choose one</option>
+  <option>Occasional Babysitting</option>
+  <option>Recurring Babysitting</option>
+  <option>Date Night Care</option>
+  <option>Daytime Care</option>
+  <option>Evening Care</option>
+  <option>Overnight Care</option>
+  <option>Weekend Care</option>
+  <option>Holiday Care</option>
+  <option>Nanny Services</option>
+  <option>Other</option>
+</select>
+</label>
+
+<label>
+Preferred Date
+<input type="date" name="Preferred Date" required>
+</label>
+
+<label>
+Start Time
+<input type="time" name="Start Time">
+</label>
+
+<label>
+End Time
+<input type="time" name="End Time">
+</label>
+
+<label>
+How Often Do You Need Care?
+<select name="Care Frequency">
+  <option value="">Choose one</option>
+  <option>One Time</option>
+  <option>Occasionally</option>
+  <option>Weekly</option>
+  <option>Several Times Per Week</option>
+  <option>Monday Through Friday</option>
+  <option>Schedule Varies</option>
+</select>
+</label>
+
+<label>
+Home Address or Service Area
+<input type="text" name="Service Address">
+</label>
+
+<label>
+Allergies, Medical Needs, or Special Instructions
+<textarea
+  name="Special Instructions"
+  rows="5"
+  placeholder="Please share anything we should know."
+></textarea>
+</label>
+
+<label>
+Additional Details
+<textarea
+  name="Additional Details"
+  rows="6"
+  placeholder="Tell us more about the childcare you need."
+></textarea>
+</label>
+
+<label>
+How Did You Hear About Us?
+<select name="Referral Source">
+  <option value="">Choose one</option>
+  <option>Friend or Family</option>
+  <option>Facebook</option>
+  <option>Instagram</option>
+  <option>Google</option>
+  <option>Flyer or Business Card</option>
+  <option>Returning Family</option>
+  <option>Other</option>
+</select>
+</label>
+
+<label class="checkbox-row">
+  <input type="checkbox" name="Permission to Contact" value="Yes" required>
+  I give Asia's Family Care permission to contact me about this request.
+</label>
+
+<button type="submit" class="button quote-submit-button">
+  Submit Quote Request
+</button>
+
+<p class="form-note">
+  Sending this form does not confirm a booking. We will contact you to discuss
+  availability and pricing.
+</p>
+
+</form>
+
+</div>
+
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© Asia's Family Care. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
