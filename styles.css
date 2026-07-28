@@ -177,3 +177,29 @@ height:70px;
 }
 
 }
+@media (max-width: 768px) {
+  .hero {
+    padding: 45px 20px;
+    overflow: hidden;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
