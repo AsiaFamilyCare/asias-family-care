@@ -291,3 +291,18 @@ height:70px;
     display: block;
   }
 }
+
+
+@media (max-width: 900px) {
+  .main-nav.open {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    z-index: 9999;
+  }
+}
