@@ -811,3 +811,24 @@ footer p,
 footer a {
   font-weight: 600;
 }
+.service-icon{
+    width:90px;
+    height:90px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#fde7f2,#efe8ff);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 10px 25px rgba(111,63,133,.15);
+}
+
+.service-icon i{
+    font-size:42px;
+    color:#7a4bb8;
+}
+
+.service-card:hover .service-icon{
+    transform:scale(1.08);
+    transition:.3s;
+}
