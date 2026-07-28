@@ -1077,3 +1077,94 @@ footer a {
     font-size: 16px;
   }
 }
+/* Final booking page cleanup */
+
+.booking-form-section {
+  background: #fff9fc;
+  padding: 60px 20px;
+}
+
+.booking-form {
+  max-width: 900px;
+  padding: 40px;
+  box-shadow: 0 14px 40px rgba(77, 42, 91, 0.08);
+}
+
+.booking-form h2 {
+  color: #2f2431;
+  font-size: 34px;
+  margin-top: 38px;
+  margin-bottom: 20px;
+}
+
+.booking-form h2:first-of-type {
+  margin-top: 0;
+}
+
+.booking-form label {
+  color: #332b35;
+  line-height: 1.4;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  min-height: 54px;
+}
+
+.booking-form textarea {
+  min-height: 170px;
+}
+
+.checkbox-row {
+  display: grid !important;
+  grid-template-columns: 22px 1fr;
+  align-items: start;
+  gap: 12px !important;
+  margin-top: 24px;
+}
+
+.checkbox-row input {
+  width: 20px !important;
+  min-height: 20px !important;
+  margin-top: 3px;
+}
+
+.booking-submit-button {
+  display: block;
+  width: fit-content;
+  margin: 26px auto 0;
+  padding: 16px 28px;
+  border: none;
+  cursor: pointer;
+}
+
+.form-note {
+  max-width: 720px;
+  margin: 18px auto 0;
+  text-align: center;
+  line-height: 1.6;
+  color: #6e6371;
+}
+
+@media (max-width: 700px) {
+  .booking-form-section {
+    padding: 28px 12px;
+  }
+
+  .booking-form {
+    padding: 26px 18px;
+  }
+
+  .booking-form h2 {
+    font-size: 30px;
+  }
+
+  .booking-submit-button {
+    width: 100%;
+  }
+
+  .form-note {
+    text-align: left;
+  }
+}
