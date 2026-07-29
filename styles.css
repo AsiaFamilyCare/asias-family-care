@@ -1809,3 +1809,21 @@ section#why-choose-us article.benefit p {
     font-size: 34px;
     color: #7b42c3;
 }
+#why-choose-us .benefit-icon {
+    width: 72px;
+    height: 72px;
+    margin: 0 0 20px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #fbe7ff, #f6d8ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+        0 0 18px rgba(255, 210, 245, 0.9),
+        0 0 40px rgba(190, 120, 255, 0.35);
+}
+
+#why-choose-us .benefit-icon i {
+    font-size: 34px;
+    color: #7b42c3;
+}
