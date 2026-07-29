@@ -2030,3 +2030,22 @@ section#why-choose-us article.benefit p {
   background: linear-gradient(135deg, #8a4fff, #6d2fd5);
   color: white;
 }
+/* Force larger subtext across the whole website */
+body p,
+body li,
+body .section-heading p,
+body .service-card p,
+body .about-preview p,
+body .faq-preview p,
+body .home-booking p,
+body .booking-card p {
+  font-size: 1.35rem !important;
+  line-height: 1.8 !important;
+}
+
+body label,
+body input,
+body textarea,
+body select {
+  font-size: 1.2rem !important;
+}
