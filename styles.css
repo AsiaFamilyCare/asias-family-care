@@ -1608,3 +1608,84 @@ form textarea:focus {
     font-size: 17px;
   }
 }
+/* Mobile fix for Why Choose Us */
+#why-choose-us {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #8e5aba 0%, #6d3f8d 100%);
+  color: #ffffff;
+}
+
+#why-choose-us h2 {
+  margin: 0 0 32px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 38px;
+  line-height: 1.15;
+}
+
+#why-choose-us .benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+#why-choose-us .benefit {
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 20px;
+}
+
+#why-choose-us .benefit-icon {
+  margin-bottom: 14px;
+  font-size: 28px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+#why-choose-us .benefit-icon i {
+  font-size: 28px;
+}
+
+#why-choose-us .benefit h3 {
+  margin: 0 0 10px;
+  color: #ffffff;
+  font-size: 27px;
+  line-height: 1.2;
+}
+
+#why-choose-us .benefit p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  #why-choose-us {
+    padding: 48px 18px;
+    scroll-margin-top: 110px;
+  }
+
+  #why-choose-us h2 {
+    font-size: 34px;
+    margin-bottom: 28px;
+  }
+
+  #why-choose-us .benefits-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  #why-choose-us .benefit {
+    padding: 22px;
+  }
+
+  #why-choose-us .benefit h3 {
+    font-size: 25px;
+  }
+
+  #why-choose-us .benefit p {
+    font-size: 17px;
+  }
+}
