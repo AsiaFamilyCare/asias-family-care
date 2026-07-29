@@ -1909,52 +1909,29 @@ section#why-choose-us article.benefit p {
 }
 .floating-actions {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
-    gap: 12px;
+    gap: 10px;
     z-index: 9999;
 }
 
 .floating-call,
 .floating-book {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 14px 20px;
+    padding: 10px 16px;
     border-radius: 999px;
-    text-decoration: none;
+    font-size: 14px;
     font-weight: 700;
-    font-size: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,.18);
-    transition: transform .2s ease;
+    min-width: 120px;
+    justify-content: center;
 }
 
-.floating-call {
-    background: #ffffff;
-    color: #5b2f72;
-    border: 2px solid #d9bdf2;
-}
-
-.floating-book {
-    background: linear-gradient(135deg,#8a4fff,#6d2fd5);
-    color: #fff;
-}
-
-.floating-call:hover,
-.floating-book:hover {
-    transform: translateY(-2px);
-}
-
-@media (max-width:768px) {
-    .floating-actions {
-        left: 16px;
-        right: 16px;
-        bottom: 16px;
-    }
-
+@media (max-width: 768px) {
     .floating-call,
     .floating-book {
-        flex: 1;
+        min-width: 110px;
+        padding: 10px 14px;
+        font-size: 14px;
     }
 }
