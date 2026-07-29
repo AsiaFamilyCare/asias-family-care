@@ -1861,3 +1861,26 @@ section#why-choose-us article.benefit p {
     transform: translateY(-2px);
     box-shadow: 0 12px 28px rgba(138, 79, 255, 0.35);
 }
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  background: #efe2f8;
+  color: #5b2f72;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 18px;
+  border: 1px solid #e0c9ee;
+  box-shadow: 0 6px 16px rgba(91, 47, 114, 0.18);
+}
+
+.home-button:visited {
+  color: #5b2f72;
+}
+
+.home-button:hover {
+  background: #e4d0f1;
+  text-decoration: none;
+}
