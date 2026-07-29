@@ -1173,14 +1173,30 @@ footer a {
    ========================================= */
 
 .booking-intro {
-  padding: 70px 20px 45px;
-  text-align: center;
-  background: linear-gradient(135deg, #fff8fc 0%, #f4ebff 100%);
+    padding: 80px 20px 60px;
+    text-align: center;
+    background:
+        radial-gradient(circle at top left, rgba(255, 255, 255, 0.9), transparent 35%),
+        linear-gradient(135deg, #fff4fb 0%, #eee4ff 100%);
+    border-bottom: 1px solid rgba(123, 66, 195, 0.12);
 }
 
 .booking-intro .container {
   max-width: 760px;
   margin: 0 auto;
+}.booking-intro h1 {
+    margin: 12px 0 18px;
+    color: #4f2d67;
+    font-size: 54px;
+    line-height: 1.1;
+}
+
+.booking-intro p {
+    max-width: 680px;
+    margin: 0 auto;
+    color: #665c69;
+    font-size: 19px;
+    line-height: 1.7;
 }
 
 .booking-label {
