@@ -756,7 +756,26 @@ footer a:hover {
 body {
   font-weight: 500;
 }
+/* Larger text across the entire website */
+p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
 
+li {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
+
+label {
+    font-size: 1.15rem;
+}
+
+input,
+textarea,
+select {
+    font-size: 1.15rem;
+}
 .hero h1 {
   font-weight: 900;
   letter-spacing: -1px;
