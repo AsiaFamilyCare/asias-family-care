@@ -1689,3 +1689,56 @@ form textarea:focus {
     font-size: 17px;
   }
 }
+/* Force-fix Why Families Choose Us */
+section#why-choose-us {
+  padding: 60px 18px !important;
+  background: linear-gradient(135deg, #8c59b5, #653b82) !important;
+  scroll-margin-top: 115px;
+}
+
+section#why-choose-us .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+section#why-choose-us .section-heading {
+  margin: 0 0 30px !important;
+  text-align: center !important;
+}
+
+section#why-choose-us .section-heading h2 {
+  margin: 0 !important;
+  color: white !important;
+  font-size: 36px !important;
+  line-height: 1.2 !important;
+}
+
+section#why-choose-us article.benefit {
+  display: block !important;
+  margin: 0 0 18px !important;
+  padding: 24px !important;
+  background: rgba(255, 255, 255, 0.13) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border-radius: 20px !important;
+}
+
+section#why-choose-us .benefit-icon {
+  margin: 0 0 14px !important;
+  color: white !important;
+  font-size: 27px !important;
+  line-height: 1 !important;
+}
+
+section#why-choose-us article.benefit h3 {
+  margin: 0 0 9px !important;
+  color: white !important;
+  font-size: 25px !important;
+  line-height: 1.25 !important;
+}
+
+section#why-choose-us article.benefit p {
+  margin: 0 !important;
+  color: white !important;
+  font-size: 17px !important;
+  line-height: 1.6 !important;
+}
