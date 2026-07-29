@@ -1428,3 +1428,53 @@ footer a {
     text-align: left;
   }
 }
+/* Booking page hero */
+.booking-intro {
+  padding: 72px 20px 58px;
+  text-align: center;
+  background: linear-gradient(135deg, #fdf4fa 0%, #eee5ff 100%);
+  border-bottom: 1px solid #eadff0;
+}
+
+.booking-intro .container {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.booking-label {
+  margin: 0 0 12px;
+  color: #8b58a3;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.booking-intro h1 {
+  margin: 0 0 18px;
+  color: #312735;
+  font-size: 52px;
+  line-height: 1.1;
+}
+
+.booking-intro p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #6d6270;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .booking-intro {
+    padding: 48px 18px 38px;
+  }
+
+  .booking-intro h1 {
+    font-size: 38px;
+  }
+
+  .booking-intro p {
+    font-size: 16px;
+  }
+}
