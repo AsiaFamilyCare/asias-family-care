@@ -1884,3 +1884,26 @@ section#why-choose-us article.benefit p {
   background: #e4d0f1;
   text-decoration: none;
 }
+/* Fix booking confirmation checkbox alignment */
+.checkbox-row {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+  margin-top: 24px;
+}
+
+.checkbox-row input[type="checkbox"] {
+  width: 20px !important;
+  height: 20px !important;
+  min-height: 20px !important;
+  flex: 0 0 20px;
+  margin: 4px 0 0 0 !important;
+  padding: 0 !important;
+}
+
+.checkbox-row span {
+  display: block;
+  flex: 1;
+  line-height: 1.5;
+}
