@@ -1742,3 +1742,49 @@ section#why-choose-us article.benefit p {
   font-size: 17px !important;
   line-height: 1.6 !important;
 }
+@media (max-width: 700px) {
+  #why-choose-us {
+    padding: 50px 18px !important;
+  }
+
+  #why-choose-us .section-heading {
+    margin-bottom: 28px !important;
+  }
+
+  #why-choose-us .section-heading h2 {
+    font-size: 34px !important;
+    text-align: center !important;
+    color: #ffffff !important;
+  }
+
+  #why-choose-us .benefit {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 0 18px !important;
+    padding: 22px !important;
+    background: rgba(255, 255, 255, 0.14) !important;
+    border: 1px solid rgba(255, 255, 255, 0.28) !important;
+    border-radius: 18px !important;
+    box-sizing: border-box !important;
+  }
+
+  #why-choose-us .benefit-icon {
+    margin-bottom: 12px !important;
+    font-size: 26px !important;
+  }
+
+  #why-choose-us .benefit h3 {
+    margin: 0 0 8px !important;
+    font-size: 25px !important;
+    color: #ffffff !important;
+  }
+
+  #why-choose-us .benefit p {
+    margin: 0 !important;
+    font-size: 17px !important;
+    line-height: 1.55 !important;
+    color: #ffffff !important;
+  }
+}#why-choose-us {
+  scroll-margin-top: 130px;
+}
