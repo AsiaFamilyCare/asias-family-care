@@ -1935,3 +1935,24 @@ section#why-choose-us article.benefit p {
         font-size: 14px;
     }
 }
+/* Social Media Icons */
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.social-link i {
+    color: #f5c6ff;
+    font-size: 22px;
+}
+
+.social-link:hover {
+    color: #f5c6ff;
+    transform: translateX(4px);
+}
