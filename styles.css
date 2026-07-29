@@ -1789,35 +1789,5 @@ section#why-choose-us article.benefit p {
 #why-choose-us {
     scroll-margin-top: 230px !important;
 }
-/* Why Choose Us - Premium Icons */
-#why-choose-us .benefit-icon {
-    width: 90px;
-    height: 90px;
-    margin: 0 auto 24px;
-    border-radius: 50%;
-    background: linear-gradient(145deg, #fbe7ff, #f5d7ff);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow:
-        0 12px 35px rgba(199, 120, 255, 0.30),
-        0 0 25px rgba(255, 215, 245, 0.60);
-}
 
-#why-choose-us .benefit-icon i {
-    font-size: 40px;
-    color: #7b42c3;
-}
-
-#why-choose-us .benefit {
-    text-align: center;
-}
-
-#why-choose-us .benefit h3 {
-    margin-top: 10px;
-}
-
-#why-choose-us .benefit p {
-    max-width: 280px;
-    margin: 0 auto;
 }
