@@ -1907,3 +1907,54 @@ section#why-choose-us article.benefit p {
   flex: 1;
   line-height: 1.5;
 }
+.floating-actions {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 12px;
+    z-index: 9999;
+}
+
+.floating-call,
+.floating-book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 20px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.18);
+    transition: transform .2s ease;
+}
+
+.floating-call {
+    background: #ffffff;
+    color: #5b2f72;
+    border: 2px solid #d9bdf2;
+}
+
+.floating-book {
+    background: linear-gradient(135deg,#8a4fff,#6d2fd5);
+    color: #fff;
+}
+
+.floating-call:hover,
+.floating-book:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width:768px) {
+    .floating-actions {
+        left: 16px;
+        right: 16px;
+        bottom: 16px;
+    }
+
+    .floating-call,
+    .floating-book {
+        flex: 1;
+    }
+}
