@@ -1977,23 +1977,3 @@ section#why-choose-us article.benefit p {
     margin: 15px auto 0;
   }
 }
-.quick-links-section {
-    text-align: center;
-}
-
-.quick-links-section h3 {
-    margin-bottom: 15px;
-}
-
-.footer-links {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    justify-content: center;
-    gap: 12px 30px;
-}
-
-.footer-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-}
