@@ -1783,8 +1783,9 @@ section#why-choose-us article.benefit p {
     margin: 0 !important;
     font-size: 17px !important;
     line-height: 1.55 !important;
-    color: #ffffff !important;
+    color: #ffffff !
+}important;
   }
-}#why-choose-us {
-  scroll-margin-top: 130px;
+#why-choose-us {
+    scroll-margin-top: 230px !important;
 }
