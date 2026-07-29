@@ -1843,3 +1843,21 @@ section#why-choose-us article.benefit p {
     font-size: 34px;
     color: #7b42c3;
 }
+.home-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 22px;
+    background: linear-gradient(135deg, #e9d8f7, #d8b7f0);
+    color: #5a2d82;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(138, 79, 255, 0.25);
+    transition: all 0.3s ease;
+}
+
+.home-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(138, 79, 255, 0.35);
+}
