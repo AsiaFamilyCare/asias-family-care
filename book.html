@@ -360,3 +360,26 @@
 <p class="form-note">
   Your booking request will be reviewed by Asia's Family Care. Pricing varies based on the type of care requested, the number of children, hours needed, and any special requirements. We will contact you to confirm availability and provide your personalized quote before your booking is finalized.
 </p>
+/* Fix booking confirmation checkbox alignment */
+.checkbox-row {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+  margin-top: 24px;
+}
+
+.checkbox-row input[type="checkbox"] {
+  width: 20px !important;
+  height: 20px !important;
+  min-height: 20px !important;
+  flex: 0 0 20px;
+  margin: 4px 0 0 0 !important;
+  padding: 0 !important;
+}
+
+.checkbox-row span {
+  display: block;
+  flex: 1;
+  line-height: 1.5;
+}
