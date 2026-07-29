@@ -1977,3 +1977,37 @@ section#why-choose-us article.benefit p {
     margin: 15px auto 0;
   }
 }
+.floating-actions {
+  position: fixed;
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 9999;
+}
+
+.floating-call,
+.floating-book {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.floating-call {
+  background: white;
+  color: #5b2f72;
+  border: 2px solid #d9bdf2;
+}
+
+.floating-book {
+  background: linear-gradient(135deg, #8a4fff, #6d2fd5);
+  color: white;
+}
