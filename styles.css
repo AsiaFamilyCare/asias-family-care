@@ -2078,3 +2078,32 @@ body select {
     margin: 0 auto;
   }
 }
+/* Fix hero layout on laptops and desktops */
+@media (min-width: 900px) {
+  .hero {
+    padding: 70px 30px;
+  }
+
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .hero h1 {
+    max-width: 100%;
+    font-size: clamp(2.7rem, 4vw, 4rem);
+    overflow-wrap: break-word;
+  }
+
+  .hero p {
+    max-width: 100%;
+  }
+
+  .hero img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
