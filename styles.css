@@ -2107,3 +2107,12 @@ body select {
     margin: 0 auto;
   }
 }
+/* Keep hero image sharp on laptops */
+@media (min-width: 900px) {
+  .hero img {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    object-fit: cover;
+  }
+}
